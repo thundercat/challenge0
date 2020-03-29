@@ -2,5 +2,8 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     client \
-    librarry \
+    library \
     server
+
+server.depends = library
+client.depends = library

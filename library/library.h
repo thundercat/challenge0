@@ -1,7 +1,7 @@
 #ifndef LIBRARRY_H
 #define LIBRARRY_H
 
-#include "librarry_global.h"
+#include "library_global.h"
 
 class LIBRARRY_EXPORT Librarry
 {
